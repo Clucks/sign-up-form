@@ -34,6 +34,24 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+
 .summary{
     margin: 0 40vh 0 0;
+}
+
+.middle{
+    margin: 0 20vw 0 0;
+}
+
+.middle form {
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.middle form div{
+    font-size:.8rem;
+    display:flex;
+    flex-direction:column;
 }
