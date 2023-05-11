@@ -45,8 +45,9 @@ body {
     font-size: 1.5rem;
     font-weight: 550;
 }
-.summary div:last-child{
-    padding-top:5vh;
+
+.summary div:last-child {
+    padding-top: 5vh;
 }
 
 #action {
@@ -54,17 +55,18 @@ body {
     font-size: 1.5rem;
     margin-left: 1vw;
     padding: 3vh 6.5vw;
-    font-weight:400;
+    font-weight: 400;
 
 }
 
 .middle {
     background-color: white;
+    box-shadow: 2px 5px 7px rgb(216, 215, 215);
 }
 
 .middle form {
     margin: 0 20vw 0 1vw;
-    padding-bottom: 10%;
+    padding-bottom: 0%;
     display: flex;
     justify-content: space-evenly;
 
@@ -87,25 +89,48 @@ body {
 
 }
 
-#password{
-    margin-bottom:0;
+#password {
+    margin-bottom: 0;
 }
 
-.middle form div input:focus{
-    outline:none;
+.middle form div input:focus {
+    outline: none;
     border: 2px solid blue;
 }
 
 input:invalid {
-    outline:none;
+    outline: none;
     border: 1px solid red;
 
 }
 
+.bottom {
+    margin-left: 1vw;
+    padding: 3vh 6.5vw;
+}
+
 .bottom button {
     background-color: #596D48;
-    padding: 2% 4%;
+    padding: 2% 10%;
     border: none;
     border-radius: 5px;
     color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.bottom div {
+    margin-top: 4vh;
+}
+
+#transparent {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:25vh;
+    min-height:15vh;
+    background:rgb(0, 0, 0 ,.6);
+}
+
+#transparent img {
+  filter: brightness(0) invert(1);
 }
