@@ -8,6 +8,7 @@ body {
     border: 0;
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-seril;
 }
 
 .main {
@@ -39,9 +40,13 @@ body {
 
 
 .summary {
-    margin: 0 25vh 0 7vw;
+    margin: 0 10vh 0 7vw;
     padding-bottom: 5%;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.summary div:last-child{
+    padding-top:5vh;
 }
 
 #action {
@@ -49,6 +54,7 @@ body {
     font-size: 1.5rem;
     margin-left: 1vw;
     padding: 3vh 6.5vw;
+    font-weight:400;
 
 }
 
@@ -66,7 +72,7 @@ body {
 
 .middle form div {
     min-width: 15vw;
-    font-size: 1rem;
+    font-size: .8rem;
     display: flex;
     flex-direction: column;
 }
@@ -79,6 +85,10 @@ body {
     border-color: #E5E7EB;
     border-radius: 4px;
 
+}
+
+#password{
+    margin-bottom:0;
 }
 
 .middle form div input:focus{
@@ -94,7 +104,7 @@ input:invalid {
 
 .bottom button {
     background-color: #596D48;
-    padding: 1% 3%;
+    padding: 2% 4%;
     border: none;
     border-radius: 5px;
     color: white;

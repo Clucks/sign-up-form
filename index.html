@@ -25,8 +25,8 @@
                 </div>
             </div>
             <div class="middle">
-                <div id = "action">
-                    Lets do this!
+                <div id="action">
+                    Let's do this!
                 </div>
                 <form action="">
                     <div>
@@ -34,15 +34,18 @@
                         <input type="text">
                         <label for="phoneNumber">PHONE NUMBER</label>
                         <input type="tel">
-                        <label for="password">PASSWORD</label>
+                        <label for="password" id ="passwordLabel">PASSWORD</label>
                         <input type="password" id="password" name="password" required>
+                        <div id="match" style="display:none; color:red">
+                            *Passwords do not match
+                        </div>
                     </div>
                     <div>
                         <label for="last name">LAST NAME</label>
                         <input type="text">
                         <label for="email">EMAIL</label>
                         <input type="email">
-                        <label for="confirmPassword">CONFIRM PASSWORD</label>
+                        <label for="confirmPassword" id ="confirmPasswordLabel">CONFIRM PASSWORD</label>
                         <input type="password" id="confirmPassword" name="password" required>
                     </div>
                 </form>
